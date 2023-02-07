@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/b48e929808.js" crossorigin="anonymous"></script>
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/Untitled-2.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-x" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Junior Web Developer</p>
+                <h1>Hi, I'm <span>Hein Htet Aung</span><br>from Myanmar</h1>
+            </div>
+        </div>
+    </div>
+<!-- --- about --- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/mypic copy.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="subtitle">
+                        About Me
+                    </h1>
+                    <p>
+                        Hello, my name is Hein Htet Aung. I was graduated from National Management Degree Collage (B.A Tourism) in 2019. In 2020, I studied how to order International Air Tickets by using Airline Codes.
+                        From that moment, I started to enjoy coding and decided to learn programming. But I didn't get a chance to study about coding and started my job as a Life Insurance Consultant In
+                        Grand Guardian Insurance Nippon Life. After one year of full time Life Insurance Consultant, I began to study basic programming. Now I have a chance to grab my dream of coding and excited start my new career as a Junior Web Developer.
+                        As I am young motivated person, and also a quick learner and am sure to be a good team player.
+                    </p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Front-end Development</span><br>Designing and Developing Dynamic Web Interfaces</li>
+                            <li><span>Back-end Development</span><br> Build and Maintain the Mechanisms/Process Data and Perform Actions on Websites</li>
+                            <li><span>Database Development</span><br>Designing, Creating and Maintaining a Database</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2022(May) - Current</span><br>Self-studying about Programming</li>
+                            <li><span>2020(Dec) - 2021(Nov)</span><br>Life Insurance Consultant In Grand Guardian Insurance Nippon Life</li>
+                            <li><span>2018(Sept) - 2019(May)</span><br>Marketing & Ticketing Operation in TTT Travel & Tours</li>
+                            <li><span>2018(April) - 2018(June)</span><br>Assistant in Food & Bevearge Dept in Rose Garden Hotel</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2005 - 2015</span><br>Basic Education</li>
+                            <li><span>2015 - 2016</span><br>Diploma in Information Techonolgy</li>
+                            <li><span>2016 - 2019</span><br>National Management Degree Collage</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!-- --- Portfolio --- -->
+
+<div id="portfolio">
+    <div class="container">
+        <h1 class="subtitle">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work-1.png">
+                <div class="layer">
+                    <h3>Messenger Website Interface</h3>
+                    <p>
+                        This website only presents static features of a responsive messenger website.    
+                    </p>
+                    <a href="https://merry-phoenix-907d35.netlify.app/messengerwebsite"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-2.png">
+                <div class="layer">
+                    <h3>Music App</h3>
+                    <p>
+                        This simple music app offers some popular songs from Myanmar. Enjoy listening!                       
+                    </p>
+                    <a href="https://animated-axolotl-8a08ac.netlify.app/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-3.png">
+                <div class="layer">
+                    <h3>Online Shopping Website</h3>
+                    <p>
+                        This simple project gives some features of searching some products like men jackets, women jackets, pants or trausers etc. Enjoy exploring!                   
+                    </p>
+                    <a href="https://lucky-swan-7b2ef3.netlify.app/autocompleteindex"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="work-list work-list1">
+            <div class="work">
+                <img src="images/stop-watch.jpg">
+                <div class="layer">
+                    <h3>Stop Watch Program</h3>
+                    <p>
+                        This simple stop watch program shows precise timer. You can start, stop and reset the timer.    
+                    </p>
+                    <a href="https://silver-gnome-0d7b1e.netlify.app/stopwatchindex"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/shopping-list.jpg">
+                <div class="layer">
+                    <h3>Shopping List</h3>
+                    <p>
+                        This simple shopping list can create list of items that u listed to purchase. Don't forget to buy!                       
+                    </p>
+                    <a href="https://voluble-ganache-7abbb7.netlify.app/shoppinglistindex"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/download.png">
+                <div class="layer">
+                    <h3>Responsive Netflix Website Clone</h3>
+                    <p>
+                        This simple project gives some features of searching some products like men jackets, women jackets, pants or trausers etc. Enjoy exploring!                   
+                    </p>
+                    <a href="https://jovial-kangaroo-50612a.netlify.app/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        
+        <a href="#" class="btn see-more-btn">See more</a>
+    </div>
+</div>
+
+<!-- --- Contact --- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="subtitle">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i> mrheinzhtetaung@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i> 09-441-932-093</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/profile.php?id=100070426301731"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/heinzhtetaung24/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/hein-htet-aung-96695a1b5/"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="images/CV.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright @ Hein Htet Aung. All rights reserved. <i class="fa-regular fa-face-smile-wink"></i></p>
+    </div>
+</div>
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname) {
+        for(tablink of tablinks) {
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents) {
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab")
+    }
+
+</script>
+
+<script>
+
+    var sidemenu = document.getElementById("sidemenu");
+    
+    function openmenu() {
+        sidemenu.style.right = "0";
+    }
+    function closemenu() {
+        sidemenu.style.right = "-200px";
+    }
+
+</script>
+
+<script>
+
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbwAweffvpm_EDqZ_ZcUdW7hiQPcLuOx7bGdGBjrg7yGZHQspJIcSoG3J-rXzsCxYIHQKw/exec'
+    const form = document.forms['submit-to-google-sheet'];
+    const msg = document.getElementById("msg");
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message Sent Successfully!"
+            setTimeout(function() {
+                msg.innerHTML = "";
+            },5000)
+            form.reset();
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+
+</script>
+
+<script>
+
+    const workList = document.querySelector('.work-list1');
+    const showMoreBtn = document.querySelector('.see-more-btn');
+    showMoreBtn.addEventListener('click', (e)=> {
+        workList.classList.toggle('show-more');
+        if(showMoreBtn.innerText === 'See more') {
+            showMoreBtn.innerText = 'See less';
+        } else {
+            showMoreBtn.innerText = 'See more';
+        }
+    })
+
+
+</script>
+
+</body>
+</html>
